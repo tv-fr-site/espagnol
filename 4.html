@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+	<style>
+		body{
+			background: url("image1.png");
+			background-size: cover;
+   			background-position: center;
+    		background-repeat: no-repeat;
+    		margin: 0;
+  			padding: 0;
+    		height: 100vh;
+		}
+</style>
+<body>
+    <div class="container">
+        <div class="content">
+			<h2>Gastronomia</h2>
+			<p>A tipica gastronomia es Gofio escaldado </p>
+			<p>Los ingredientes es, harina de gofio, caldo de pescado y cebolla morada</p>
+			<p>Una de las tradiciones de Canarias es el juego de palos.</p>
+        </div>
+        <div class="sidebar">
+			<button onclick="goToPage(index)">Presentación</button>
+            <button onclick="goToPage(2)">Presentación 2</button>
+            <button onclick="goToPage(3)">Himno</button>
+            <button onclick="goToPage(4)">Gastronomia</button>
+            <button onclick="goToPage(5)">Palo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
