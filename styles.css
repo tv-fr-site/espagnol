@@ -36,3 +36,18 @@ body, html {
 .sidebar button:hover {
     background-color: #FFCA90;
 }
+
+.sidebar a {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #FFCA00;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sidebar a:hover {
+    background-color: #FFCA90;
+}
